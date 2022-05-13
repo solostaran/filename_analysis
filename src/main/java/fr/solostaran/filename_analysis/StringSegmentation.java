@@ -4,6 +4,11 @@ import java.util.*;
 
 public class StringSegmentation {
 
+	/**
+	 * Knowing the delimiters/separators, I can allocate the needed Maps.
+	 * @param prefix_delimiters
+	 * @return
+	 */
 	public static Map<String, Map<String, Integer>> initializeMap(String [] prefix_delimiters) {
 		if (prefix_delimiters == null) throw new NullPointerException("list of delimiters cannot be null.");
 		if (prefix_delimiters.length == 0) throw new NullPointerException("list of delimiters cannot be empty.");
@@ -12,10 +17,6 @@ public class StringSegmentation {
 		for (String prefix : prefix_delimiters)
 			map.put(prefix, new HashMap<String, Integer>());
 		return map;
-	}
-
-	public static void sortMapByValues(Map<String, Map<String, Integer>> map) {
-
 	}
 
 	/**

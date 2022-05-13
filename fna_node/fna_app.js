@@ -3,7 +3,7 @@ const delimiters = ['_#', '_@', '.'];
 //const fileList = ["FPjAxF4aIAMyMTs_Spring_@2GONG_02.jpg","FMvy3dnaMAEAkS4_#HuTao_#GenshinImpact_@POISE_21.jpg","FPfXafmaQAEHRUS_@POISE_21.jpg","FPfXYsCaIAIbBtv_@POISE_21.jpg","FPKq-zTVUAEHQZG_#BlueArchive_@hipanan2222.jpg","FPP5r62aUA0Kh6W_Ninja_Pekora_@Sco_ttie.jpg","FPP6dDnaMAYtj3M_@_HaeO.jpg","FPPm169agAQNSFF_Late_@EunYooo_.jpg","FPPOkuJVQAEnUEA_@Nannung_mdr.jpg","FPPqE19VEAQYCNG_@Tess88884.jpg","FPQAoyqVIAkksrk_Yeon[CherryBlossom]_@rmflawha12.jpg","FPQEUZTaUAc-EGd_Spring_@ozzingo.jpg","FPQKCt6aUAQfnkq_Spring_@_NknHm.jpg","FPR8bqhVIAQMACj_#Yelan_@retty9349.jpg","FPT0M6fVQAg2aeh_Ookami_Mio_@Yozora1902.jpg","FPT8Rz9UYAQYDIq_@hd_1735.jpg","FPUZpSkaQAEZlUJ_Mars_@patch_oxxo.jpg"];
 
 const fs = require('fs');
-const fileList = fs.readdirSync('C:\\Users\\joan_\\OneDrive\\Images\\Albums\\Twitter');
+const fileList = fs.readdirSync('C:\\Users\\MyLogin\\OneDrive\\Images\\Albums\\Twitter');
 //console.log('Nb files = '+fileList.length);
 
 //---------- Parser ----------
